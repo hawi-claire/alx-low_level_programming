@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	int n = 80;
+	int n = 97;
 
-	while (n <= 133)
+	while (n <= 127)
 	{
 		putchar(n);
 		n++;
