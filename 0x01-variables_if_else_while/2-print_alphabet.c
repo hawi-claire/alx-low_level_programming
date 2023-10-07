@@ -1,16 +1,18 @@
 #include <stdio.h>
 /**
  *main - Entry point
- *Description: 'Print alphabets loercase
+ *Description: 'Print alphabets loercase'
  *Return: Always 0
  */
 int main(void)
 {
-	for (char c = 'a'; c <= 'z'; c++)
+	int n = 80;
+
+	while (n <= 133)
 	{
-		putchar(c);
+		putchar(n);
+		n++;
 	}
 	putchar('\n');
-
 	return (0);
 }
