@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
-  *main = Entry point
-  *Description: 'Print uppercase and lowercase of alphabet'
-  *Return: always 0
-  */
+ * main - Entry point
+ * Description: 'print alphabets lowercase and uppercase'
+ * Return: always 0
+ */
 int main(void)
 {
 	int n = 97;
