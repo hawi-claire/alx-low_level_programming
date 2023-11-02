@@ -2,12 +2,13 @@
 #include <stdlib.h>
 /**
  * malloc_checked - allocate memory using malloc
+ *
  * @b:input int
  *
- * Return:void
+ * Return: void
  */
 
-void *malloc_checked(unsigned int b)
+void *malloc_checked(unsigned int b);
 {
 	void *ptr;
 
