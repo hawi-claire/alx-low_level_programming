@@ -11,15 +11,15 @@
  * @letters: number of letters it reads and prints
  * Return: number of lettes it reads and prints
  */
-ssize_t read_textfile(const char *filename, size_t letters);
+ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int files_d;
 	ssize_t lenr, lenw;
-	charr *buff;
+	char *buff;
 
-	if (filename --NULL)
+	if (filename == NULL)
 		return (0);
-	files_d = open(filename, 0 - RDONLY);
+	files_d = open(filename, O_RDONLY);
 	if (files_d == -1)
 		return (0);
 	buff = malloc(sizeof(char) * letters);
