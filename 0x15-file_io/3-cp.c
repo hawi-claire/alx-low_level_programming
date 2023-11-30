@@ -15,5 +15,6 @@ void error_file(int file_from, int file_to, char *argv[])
 	}
 	if (file_to == -1)
 	{
-		dprint(STDERR_FILENO, "Error: Can't write to file NAME_OF_THE_FILE)
+		dprintf(STDERR_FILENO, "Error: Can't write to file NAME_OF_THE_FILE");
 	}
+}
